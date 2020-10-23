@@ -10,3 +10,5 @@ To connect this repo to RStudio, I copied the repo URL and pasted it in the Git 
 To save changes, click on the Git tab in the environment; Diff highlights changes and Commit opens the tab to save the changes. Click "Staged" an commit changes. These are local to the RStudio repo. 
 
 To sync the repo in RStudio and that in the online repo, use the green arrow/Push button. This should upload changes to the online repo. 
+
+Lastly, these changes can be saved to the original branch or a new branch, which can later be merged using a pull request. 
