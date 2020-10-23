@@ -13,4 +13,6 @@ To sync the repo in RStudio and that in the online repo, use the green arrow/Pus
 
 Lastly, these changes can be saved to the original branch or a new branch, which can later be merged using a pull request. Branches are created using the branch icon or main pulldown menu in the Git tab. 
 
-Pushing changes to the online repo sometimes prompts for username and password, which can be avoided by using a PAT - personal access token - generated through GitHub and stored in R using the credentials packages. Hopefully, it should no longer ask for passwords when saving and syncing...hopefully. It's not working :()
+Pushing changes to the online repo sometimes prompts for username and password, which can be avoided by using a PAT - personal access token - generated through GitHub and stored in R using the credentials packages. Hopefully, it should no longer ask for passwords when saving and syncing...hopefully. It's not working :(
+
+Error in using the credential manager seems to be because I cloned the repo URL using HTTPS, which is less secure? SSH may be more secure and allow for automatic retrieval of my credentials (and less password prompting) but requires a public SSH key on my Git account. Fine for now. PAT can still be used in place of password when prompted, and is a bit more secure. 
