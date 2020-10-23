@@ -12,3 +12,5 @@ To save changes, click on the Git tab in the environment; Diff highlights change
 To sync the repo in RStudio and that in the online repo, use the green arrow/Push button. This should upload changes to the online repo. 
 
 Lastly, these changes can be saved to the original branch or a new branch, which can later be merged using a pull request. Branches are created using the branch icon or main pulldown menu in the Git tab. 
+
+Pushing changes to the online repo sometimes prompts for username and password, which can be avoided by using a PAT - personal access token - generated through GitHub and stored in R using the credentials packages. Hopefully, it should no longer ask for passwords when saving and syncing. 
